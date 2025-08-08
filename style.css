@@ -1,0 +1,74 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styling */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 15px 0;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: yellow;
+  border-bottom: 2px solid yellow;
+}
+
+/* Scroll effect style */
+nav.scrolled {
+  background-color: #333;
+}
+
+/* Section styles for scrolling */
+section {
+  height: 100vh;
+  padding: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background: url('https://rukminim2.flixcart.com/image/704/844/jmqmpow0-1/poster/x/h/r/medium-athah-anime-original-cloud-landscape-sky-tree-house-road-original-imaf9kwgrfn65mve.jpeg?q=90&crop=false') no-repeat center/cover;
+}
+
+#services {
+  background: url('https://images.unsplash.com/photo-1551418988-c21e451467b7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBzY2VuZXJ5fGVufDB8fDB8fHww') no-repeat center/cover;
+}
+
+#about {
+  background: url('https://images.stockcake.com/public/8/e/8/8e89d244-1de1-4524-8a98-78a971e1f670_large/aurora-over-mountains-stockcake.jpg') no-repeat center/cover;
+}
+
+#contact {
+  background: url('https://media.istockphoto.com/id/584237980/photo/machhapuchhre-and-terraced-fields-nepal.jpg?s=612x612&w=0&k=20&c=x6F-ywDLhd8_quwzkjeN9gV9__wa03jPW62Xy0mswf4=') no-repeat center/cover;
+}
